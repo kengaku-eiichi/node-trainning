@@ -13,7 +13,8 @@ var server = http.createServer(function (req, res) {
             break
         default:
             var path = __dirname + '/' + urlParts.pathname
-            fs.createReadStream(path).pipe(res)
+            var stream = fs.createReadStream(path)
+            stream.pipe(res)
     }
 })
 server.listen(port)
