@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yarn add express-generator -g
+yarn global add express-generator
 
 
 main(){
