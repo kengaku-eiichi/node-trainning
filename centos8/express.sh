@@ -3,7 +3,7 @@
 
 main(){
     dir=${1}
-    [ -d ${dir} ] || mkdir -p ${dir}
+    [ -d "${dir}/views" ] || mkdir -p "${dir}/views"
     cd ${dir}
     yarn init -y
     yarn add express ejs --save
