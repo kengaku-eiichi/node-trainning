@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Express + EJS + Ajax</title>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        $(function () {
+            $('#btn').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '/ajax',
+                    dataType: 'json'
+                }).done(function (data) {
+                    $('#msg').html(data.msg);
+                })
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <button id="btn" type="button">send</button>
+    </form>
+    <div id="msg"></div>
+</body>
+
+</html>
