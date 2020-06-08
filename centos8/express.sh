@@ -6,7 +6,7 @@ main(){
     [ -d ${dir} ] || mkdir -p ${dir}
     cd ${dir}
     yarn init -y
-    yarn add express --save
+    yarn add express ejs --save
 }
 
 main "/git/node-trainning/express-sample1"
