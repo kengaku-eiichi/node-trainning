@@ -12,3 +12,4 @@ main(){
 main "/git/node-trainning/express-sample1"
 main "/git/node-trainning/express-sample2"
 main "/git/node-trainning/express-sample3"
+main "/git/node-trainning/express-sample4"
