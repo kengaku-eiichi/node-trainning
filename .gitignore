@@ -1,1 +1,3 @@
 /centos8/.vagrant
+/ejs-sample1/node_modules
+/ejs-sample1/yarn.lock
