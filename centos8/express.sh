@@ -1,5 +1,7 @@
 #!/bin/bash
 
+yarn add express-generator -g
+
 
 main(){
     dir=${1}
@@ -14,3 +16,4 @@ main "/git/node-trainning/express-sample2"
 main "/git/node-trainning/express-sample3"
 main "/git/node-trainning/express-sample4"
 main "/git/node-trainning/express-sample5"
+main "/git/node-trainning/express-sample6"
